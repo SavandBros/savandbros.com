@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/savandbros
+    docker:
+      - image: circleci/python:3.6.2
+    steps:
+      - checkout
+      - restore_cache:
+          key: deps1-{{ checksum "requirements.txt" }}-{{ checksum "requirements/dev.txt" }}
+      - run:
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements/dev.txt
+      - save_cache:
+          key: deps1-{{ checksum "requirements.txt" }}-{{ checksum "requirements/dev.txt" }}
+          paths:
+            - "venv"
+      - run:
+          command: |
+            . venv/bin/activate
+            python manage.py test
+      - add_ssh_keys:
+          fingerprints:
+            - "b2:52:40:0a:17:d6:c0:d6:d0:98:46:fd:8f:ab:41:fc"
+      - deploy:
+          name: Deploying
+          command: |
+            . venv/bin/activate
+            fab deploy
