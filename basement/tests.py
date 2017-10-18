@@ -1,3 +1,6 @@
-from django.test import TestCase
+from django.test import SimpleTestCase
 
-# Create your tests here.
+
+class MiowTest(SimpleTestCase):
+    def test_just_checking(self):
+        self.assertTrue(True)
