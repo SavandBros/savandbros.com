@@ -1,4 +1,5 @@
 {% load static i18n humanize %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
   {# Title and favicon #}
-  <title>{% block title %}{% endblock %} &bull; Savand Bros</title>
+  <title>{% block title %}{% endblock %} &bull; {% trans "Savand Bros" %}</title>
   <link rel="icon" type="image/png" href="{% static "img/favicon.png" %}"/>
 
   {# Styles #}
@@ -16,7 +17,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
   <link rel="stylesheet" href="{% static "css/app.css" %}">
 </head>
-<body>
+<body dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}">
 {# Header #}
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container">
