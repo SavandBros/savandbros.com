@@ -40,7 +40,7 @@ def deploy():
     with venv():
         with cd(APP_PATH):
             run('pip install -r requirements.txt')
-            run('python manage.py collectstatic')
+            run('python manage.py collectstatic --noinput')
             run('chmod 644 tmp/restart.txt')
 
     run(f'selectorctl --interpreter python '
