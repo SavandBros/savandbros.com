@@ -83,5 +83,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'basement/static/')
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "basement/static"),
+    os.path.join(BASE_DIR, "static/"),
 ]
