@@ -2,10 +2,30 @@
 
 {% block title %}Home{% endblock title %}
 
-{% load staticfiles %}
+{% load staticfiles  i18n %}
 
 {% block content %}
-  <div class="container">
-    <h1>Welcome!</h1>
+
+  <div class="container-fluid cover bg-landing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          {# Title #}
+          <h1 class="title box">{% trans "Savand Bros" %}</h1>
+          {# Sub title #}
+          <h2 class="title box">
+            {% trans "We provide Iranians with commercial, export, import, educational, managerial and tourist services in Russia." %}
+          </h2>
+          <br>
+          <div class="box">
+            {# Contact us #}
+            <a href="#" class="btn btn-success">
+              <i class="fa fa-fw fa-phone"></i> {% trans "Contact Us" %}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 {% endblock %}
