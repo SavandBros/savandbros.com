@@ -41,7 +41,7 @@ def deploy():
         with cd(APP_PATH):
             run('pip install -r requirements.txt')
             run('python manage.py collectstatic --noinput')
-            run('fab compile_msgs')
+            run('django-admin.py compilemessages')
             run('chmod 644 tmp/restart.txt')
 
     run(f'selectorctl --interpreter python '
