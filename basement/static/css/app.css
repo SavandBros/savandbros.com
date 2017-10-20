@@ -57,6 +57,14 @@ h1.title {
 .btn {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+/* Image */
+
+.img-circle {
+    border-radius: 10000px;
+}
+
 /* Footer */
 
 .footer a {
