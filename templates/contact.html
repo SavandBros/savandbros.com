@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% load staticfiles  i18n %}
+
+{% block title %}{% trans "Contact Us" %}{% endblock title %}
+
+{% block content %}
+  <div class="container s-pad-y">
+    {# Title #}
+    <h1 class="title">{% trans "Contact Us" %}</h1>
+    <hr>
+    <div class="row">
+      {# Address #}
+      <div class="col-md-6">
+        <h4>
+          <i class="fa fa-fw text-secondary fa-map-marker"></i>
+          <a href="#">
+            Moscow, Russia
+          </a>
+        </h4>
+        <br>
+        <h4>
+          <i class="fa fa-fw text-secondary fa-inbox"></i>
+          <a href="mailto:hello@savandbros.com">hello@savandbros.com</a>
+        </h4>
+        <br>
+        <h4>
+          <i class="fa fa-fw text-secondary fa-telegram-"></i>
+          <a href="#">{% trans "Telegram Group" %}</a>
+        </h4>>
+        <br>
+        <h4>
+          <i class="fa fa-fw text-secondary fa-telegram"></i>
+          <a href="#">{% trans "Telegram Group" %}</a>
+        </h4>
+      </div>
+      {# Form #}
+      <div class="col-md-6">
+        <form>
+          {# Number #}
+          <div class="form-group">
+            <input type="text" class="form-control form-control-lg" placeholder="{% trans "Phone number" %}">
+          </div>
+          {# Address #}
+          <div class="form-group">
+            <input type="text" class="form-control form-control-lg" placeholder="{% trans "Address" %}">
+          </div>
+          {# Email #}
+          <div class="form-group">
+            <input type="email" class="form-control form-control-lg" placeholder="{% trans "Email address" %}">
+          </div>
+          {# Message #}
+          <div class="form-group">
+            <textarea class="form-control form-control-lg" placeholder="{% trans "Message" %}" rows="6"></textarea>
+          </div>
+          {# Submit #}
+          <button class="btn btn-success btn-lg">{% trans "Send" %}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}

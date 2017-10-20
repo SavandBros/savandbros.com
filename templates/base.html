@@ -33,7 +33,10 @@
       {# Links #}
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="{% url "basement:contact" %}">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url "basement:about" %}">About Us</a>
         </li>
       </ul>
     </div>
@@ -43,11 +46,13 @@
 {# Page content #}
 {% block content %}{% endblock %}
 
+{# Footer #}
 <hr>
 <div class="container-fluid bg-white s-pad-y-soft footer">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
+        <a href="{% url "basement:contact" %}">Contact Us</a>
         <a href="{% url "basement:about" %}">About Us</a>
       </div>
       <divl class="col-md-6 text-right">
