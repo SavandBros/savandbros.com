@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% load staticfiles  i18n %}
+
+{% block title %}About Us{% endblock title %}
+
+{% block content %}
+
+  {# Team #}
+  <div class="container s-pad-y-hard">
+    <div class="row text-center">
+      <div class="col-lg-4">
+        <img src="//placehold.it/512/111/111" class="s-full img-circle s-pad">
+        <h1>Alireza Savand</h1>
+        <hr>
+        <h4 class="t-light">CEO & Founder</h4>
+        <h4 class="t-light"><a href="mailto:ali@savandbros.com">{% trans "Email" %}</a></h4>
+      </div>
+      <div class="col-lg-4">
+        <img src="//placehold.it/512/555/555" class="s-full img-circle s-pad">
+        <h1>Amir Savand</h1>
+        <hr>
+        <h4 class="t-light">Developer & Founder</h4>
+        <h4 class="t-light"><a href="mailto:amir@savandbros.com">{% trans "Email" %}</a></h4>
+      </div>
+      <div class="col-lg-4">
+        <img src="//placehold.it/512/999/999" class="s-full img-circle s-pad">
+        <h1>Mohsen Mosavi</h1>
+        <hr>
+        <h4 class="t-light">Chief Commerce Officer</h4>
+        <h4 class="t-light"><a href="#">Email</a></h4>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
