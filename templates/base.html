@@ -43,7 +43,22 @@
 {# Page content #}
 {% block content %}{% endblock %}
 
+<hr>
+<div class="container-fluid bg-white s-pad-y-soft footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
         <a href="{% url "basement:about" %}">About Us</a>
+      </div>
+      <divl class="col-md-6 text-right">
+        <p class="text-secondary">
+          {% trans "&copy; 2017 SavandBros. All rights reserved." %}
+        </p>
+      </divl>
+    </div>
+  </div>
+</div>
+
 {# Scripts #}
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
