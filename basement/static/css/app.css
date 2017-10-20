@@ -14,7 +14,7 @@ a, button {
 
 /* Title */
 
-.title {
+h1, h2, h3 {
     font-weight: 100;
     line-height: 1.4;
 }
@@ -53,3 +53,8 @@ h1.title {
     background-image: url("../img/landing.jpg");
 }
 
+/* Button */
+.btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
