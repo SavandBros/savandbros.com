@@ -1,8 +1,8 @@
 {% extends 'base.html' %}
 
-{% block title %}Home{% endblock title %}
-
 {% load staticfiles  i18n %}
+
+{% block title %}{% trans "Home" %}{% endblock title %}
 
 {% block content %}
 
@@ -27,7 +27,7 @@
   </div>
 
   {# Services #}
-  <div class="container s-pad-y">
+  <div class="container s-pad-y-hard">
     <div class="row">
       <div class="col-lg-4">
         <h1>IT</h1>
