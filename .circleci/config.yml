@@ -27,5 +27,9 @@ jobs:
       - deploy:
           name: Deploying
           command: |
-            . venv/bin/activate
-            fab deploy
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+                . venv/bin/activate
+                fab deploy
+            else
+                echo "NO DEPLOYMENT FOR NOW."
+            fi
