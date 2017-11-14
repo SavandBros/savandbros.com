@@ -29,7 +29,7 @@ That's all needed to get it installed and configured.
 To run local web-server:
 
 ```
-pythin manage.py runserver
+python manage.py runserver
 ```
 
 
