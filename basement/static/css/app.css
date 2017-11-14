@@ -10,6 +10,11 @@ body {
 a, button {
     text-decoration: none !important;
     cursor: pointer;
+    color: #444;
+}
+
+a:hover {
+    color: #0056b3;
 }
 
 /* Title */
@@ -57,6 +62,23 @@ h1.title {
 .btn {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+/* Products */
+
+.products img {
+    max-width: 100%;
+    width: 175px;
+}
+
+.products p {
+    line-height: 25px;
+    color: #000000;
+}
+
+.products a {
+    display: block;
+    margin: 15px 0 15px 0;
 }
 
 /* Image */

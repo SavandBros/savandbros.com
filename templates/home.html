@@ -64,4 +64,28 @@
     </div>
   </div>
 
+  {# Products #}
+  <div class="container s-pad-y text-center">
+    <h1 class="mb-5">{% trans "Our Products" %}</h1>
+    <div class="row products">
+      <div class="col-md-4">
+        <img class="img-circle" src="{% static "img/logo/gonevis.png" %}">
+        <a href="https://kloud51.com/"><h3 class="t-normal">Kloud51</h3></a>
+        <p class="text-secondary">Build your own professional website</p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-circle" src="{% static "img/logo/gonevis.png" %}">
+        <a href="https://gonevis.com"><h3 class="t-normal">Gonevis</h3></a>
+        <p class="text-secondary">{% trans "A professional blog publishing platform." %}</p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-circle" src="{% static "img/logo/gonevis.png" %}">
+        <a href="http://badge.kloud51.com"><h3 class="t-normal">Badge</h3></a>
+        <p class="text-secondary">
+          {% trans "Badges for your site to display cool badges for your projects such as downloads, license, status" %}
+        </p>
+      </div>
+    </div>
+  </div>
+
 {% endblock %}
