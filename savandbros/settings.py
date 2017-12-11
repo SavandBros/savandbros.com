@@ -31,7 +31,7 @@ DATABASES = {'default': dj_database_url.config(conn_max_age=600)}
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-STATIC_ROOT = os.environ.get('K51_STATIC_ROOT', os.path.join(DATA_DIR, 'static'))
+STATIC_ROOT = os.environ.get('SB_STATIC_ROOT', os.path.join(DATA_DIR, 'static'))
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATICFILES_DIRS = (
