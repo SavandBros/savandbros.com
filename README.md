@@ -1,6 +1,10 @@
-## Savand Bros main website
+## Kloud51 main website
 
-This code repository holds the source code of SavandBros main website, reachable at https://savandbros.com
+[![CircleCI](https://circleci.com/gh/SavandBros/kloud51.svg?style=svg)](https://circleci.com/gh/SavandBros/kloud51)
+[![codecov](https://codecov.io/gh/SavandBros/kloud51/branch/master/graph/badge.svg)](https://codecov.io/gh/SavandBros/kloud51)
+
+
+This code repository holds the source code of Savand Bros Kloud51 main website, reachable at https://kloud51.com
 The code base is tiny but it has been created to be minimal as possible, therefore there's not much of code pipeline, review, 
 testing etc is involved.
 
@@ -15,10 +19,10 @@ Make sure you have the following requirements:
 Clone the repo:
 
 ```
-git clone git@github.com:SavandBros/savandbros.git && cd savandbros
+git clone git@github.com:SavandBros/kloud51.git && cd kloud51
 ```
 
-Install dependecnies:
+Install dependencies:
 
 ```
 pip install -r requirements/dev.txt
@@ -29,7 +33,7 @@ That's all needed to get it installed and configured.
 To run local web-server:
 
 ```
-pythin manage.py runserver
+python manage.py runserver
 ```
 
 
