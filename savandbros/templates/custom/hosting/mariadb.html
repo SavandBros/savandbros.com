@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+  <!-- MariaDB as your Web Site Database, YESSS! -->
+  <div class="container-fluid container-dark">
+    <div class="container s-pad-y-hard">
+      <div class="row">
+        <!-- Image -->
+        <div class="col-md-4 text-center-mobile s-mobile">
+          <img src="/static/img/page/mariadb.png">
+        </div>
+        <!-- Title and detail -->
+        <div class="col-md-8">
+          {% placeholder "title" %}
+          <hr light>
+          {% placeholder "detail" %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MariaDB Tools -->
+  <div class="container-fluid">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "tools title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row s-mar-top text-center">
+        <div class="col-xs-12 col-sm-6">
+          <i class="fa feature-icon fa-hand-pointer-o"></i>
+          {% placeholder "tool 1" %}
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <i class="fa feature-icon fa-space-shuttle"></i>
+          {% placeholder "tool 2" %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- More Features -->
+  <div class="container-fluid bg-1">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "more features title" %}</h1>
+      <hr>
+      <!-- Features -->
+      <div class="row icon-title">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-sm-3">
+              <i class="fa fa-space-shuttle" style="color: #3498db"></i>
+            </div>
+            <div class="col-sm-9">
+              {% placeholder "more feature 1" %}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-sm-3">
+              <i class="fa fa-database" style="color: #e67e22"></i>
+            </div>
+            <div class="col-sm-9">
+              {% placeholder "more feature 2" %}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-sm-3">
+              <i class="fa fa-comments" style="color: #9b59b6"></i>
+            </div>
+            <div class="col-sm-9">
+              {% placeholder "more feature 3" %}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-sm-3">
+              <i class="fa fa-plus" style="color: #2ecc71"></i>
+            </div>
+            <div class="col-sm-9">
+              {% placeholder "more feature 4" %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center s-pad-top">
+        <a href="https://dash.kloud51.com/cart.php?gid=1" class="btn btn-success btn-launch">
+          <i class="fa fa-rocket fa-fw"></i> {% placeholder "launch button" %}
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock content %}

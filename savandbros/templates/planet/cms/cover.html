@@ -1,0 +1,26 @@
+<div class="container-fluid cover
+  {% if instance.is_scroll %}cover-scroll{% endif %}
+  {% if has_content %}cover-dark{% endif %}"
+     style="background-image: url('{{ instance.image.url }}')">
+  {% if instance.has_content %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          {% if instance.sub_title %}
+            <h1 class="t-bold">{{ instance.sub_title }}</h1>
+          {% endif %}
+          {% if instance.title %}
+            <h1 class="t-5"><b>{{ instance.title }}</b></h1>
+          {% endif %}
+          {% if instance.detail %}
+            <br>
+            {{ instance.detail }}
+          {% endif %}
+        </div>
+      </div>
+      {% if instance.inside_image %}
+        <img src="{{ instance.inside_image.url }}" style="max-width: 100%">
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

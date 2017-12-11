@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "section 1 title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "section 1 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!--Who We Are -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "section 2 title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "section 2 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "section 3 title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          {% placeholder "section 3 detail" %}
+          <a class="btn btn-success" href="https://billing.kloud51.com/contact.php">
+            {% placeholder "section 3 button text" %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
