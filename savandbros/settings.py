@@ -31,7 +31,7 @@ DATABASES = {'default': dj_database_url.config(conn_max_age=600)}
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-STATIC_ROOT = os.environ.get('SB_STATIC_ROOT', os.path.join(DATA_DIR, 'static'))
+STATIC_ROOT = os.environ.get('STATIC_ROOT', os.path.join(DATA_DIR, 'static'))
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATICFILES_DIRS = (
@@ -134,7 +134,7 @@ USE_TZ = True
 
 LANGUAGES = (
     ('en', gettext('English')),
-    ('hi', gettext('Hindi')),
+    ('fa', gettext('Persian')),
     ('ru', gettext('Russian')),
 )
 
@@ -148,8 +148,8 @@ CMS_LANGUAGES = {
             'redirect_on_fallback': False,
         },
         {
-            'code': 'hi',
-            'name': gettext('Hindi'),
+            'code': 'fa',
+            'name': gettext('Persian'),
             'public': True,
         },
         {
@@ -166,7 +166,7 @@ CMS_LANGUAGES = {
 }
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
-MODELTRANSLATION_LANGUAGES = ('en', 'hi', 'ru', )
+MODELTRANSLATION_LANGUAGES = ('en', 'fa', 'ru', )
 MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'en'
 
 CMS_TEMPLATES = (
