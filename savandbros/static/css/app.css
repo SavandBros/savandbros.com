@@ -49,11 +49,8 @@ h1.title {
     color: white;
 }
 
-.bg-landing {
-    background-image: url("../img/landing.086cd14219a0.jpg");
-}
-
 /* Button */
+
 .btn {
     padding-top: 15px;
     padding-bottom: 15px;
