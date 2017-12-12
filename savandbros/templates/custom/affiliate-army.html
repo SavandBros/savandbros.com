@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "affiliate army title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "affiliate army info" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- How It Works -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "how it works title" %}</h1>
+      <hr>
+      <!-- Guide -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "how it works info" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Benefits -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "benefits title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-6 text-center">
+          {% placeholder "benefits left side info" %}
+          <i class="fa fa-money fa-6x s-pad-y hidden-xs hidden-sm o-fade text-success"></i>
+        </div>
+        <div class="s-mobile-soft"></div>
+        <di class="col-md-6 text-center-mobile">{% placeholder "benefits right side info" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Frequently Asked Questions -->
+  <div class="container-fluid">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "frequently questions asked title" %}</h1>
+      <hr>
+      <!-- Questions -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h4><i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "questions asked 1" %}</h4>
+          {% placeholder "questions asked 1 answer" %}
+          <hr>
+          <h4><i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "questions asked 2" %}</h4>
+          {% placeholder "questions asked 2 answer" %}
+          <hr>
+          <h4><i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "questions asked 3" %}</h4>
+          {% placeholder "questions asked 3 answer" %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Affiliate Links -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "affiliate links title" %}</h1>
+      <hr>
+      <!-- Links -->
+      <div class="row">
+        <div class="col-md-4 text-center hidden-xs hidden-sm"><i class="fa fa-link fa-6x o-fade text-primary"></i></div>
+        <div class="col-md-8 text-center-mobile">{% placeholder "affiliate links info" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms and Conditions -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "terms and conditions title" %}</h1>
+      <hr>
+      <!-- Terms and Conditions -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "terms and conditions info" %}</div>
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}

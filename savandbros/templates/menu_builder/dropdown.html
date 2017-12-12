@@ -1,0 +1,18 @@
+<li class="dropdown">
+  <!-- Dropdown [{{ nav_link.label }}] label -->
+  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="{{ nav_link.label }}" aria-expanded="false">
+    {{ nav_link.label }} <span class="caret"></span>
+  </a>
+  <!-- Dropdown [{{ nav_link.label }} links -->
+  <ul class="dropdown-menu">
+    {% for child in nav_link.children.all %}
+      {% if child.children.all|length %}
+        {% include "menu_builder/dropdown.html" with nav_link=child %}
+      {% else %}
+        <li class="">
+          <a href="{{ child.link }}">{{ child.label }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</li>

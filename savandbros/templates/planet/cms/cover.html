@@ -1,0 +1,23 @@
+<div class="container-fluid cover" style="background-image: url('{{ instance.image.url }}')">
+  {% if instance.has_content %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          {% if instance.title %}
+            <h1 class="title">{{ instance.title }}</h1>
+          {% endif %}
+          {% if instance.sub_title %}
+            <h2>{{ instance.sub_title }}</h2>
+          {% endif %}
+          {% if instance.detail %}
+            <br>
+            {{ instance.detail }}
+          {% endif %}
+        </div>
+      </div>
+      {% if instance.inside_image %}
+        <img src="{{ instance.inside_image.url }}" style="max-width: 100%">
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

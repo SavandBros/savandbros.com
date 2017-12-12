@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+  <!-- Terms Of Service -->
+  <div class="container container-content s-pad-y">
+    <!-- Title -->
+    <h1 class="title-header">{% placeholder "tos section 1 title" %}</h1>
+    <hr>
+    <!-- Terms -->
+    {% placeholder "tos section 1 detail" %}
+  </div>
+
+  <!-- Forbidden Usage on Linux Web Hosting Service -->
+  <div class="container-fluid container-content bg-1">
+    <div class="container s-pad-y">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "tos section 2 title" %}</h1>
+      <hr>
+      <!-- Usages -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">{% placeholder "tos section 2 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Forbidden Usage on Virtual Private Server (VPS) Service -->
+  <div class="container s-pad-y">
+    <!-- Title -->
+    <h1 class="title-header">{% placeholder "tos section 3 title" %}</h1>
+    <hr>
+    <!-- Usages -->
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">{% placeholder "tos section 3 detail" %}</div>
+    </div>
+  </div>
+
+  <!-- Provisions Specific To Web Hosting -->
+  <div class="container-fuild container-content bg-1 s-pad-y">
+    <div class="container">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "tos section 4 title" %}</h1>
+      <hr>
+      <!-- Detail -->
+      {% placeholder "tos section 4 detail" %}
+    </div>
+  </div>
+
+  <!-- Service Uptime Guarantee -->
+  <div class="container container-content s-pad-y">
+    <!-- Title -->
+    <h1 class="title-header">{% placeholder "tos section 5 title" %}</h1>
+    <hr>
+    <!-- Detail -->
+    {% placeholder "tos section 5 detail" %}
+  </div>
+{% endblock content %}

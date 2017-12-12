@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+  <!-- Kloud51 - Acceptable Use Policy -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 1 title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "aup section 1 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERPRETATION -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 2 title" %}</h1>
+      <hr>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "aup section 2 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ILLEGAL USE -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 3 title" %}</h1>
+      <hr>
+      <!-- Illegal usage -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "aup section 3 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPAM -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 4 title" %}</h1>
+      <hr>
+      <!-- Content -->
+      {% placeholder "aup section 4 detail" %}
+    </div>
+  </div>
+
+  <!-- NETWORK -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 5 title" %}</h1>
+      <hr>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">{% placeholder "aup section 5 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMONLY QUESTIONED USES -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 6 title" %}</h1>
+      <hr>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">{% placeholder "aup section 6 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STRICTLY PROHIBITED USES -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 7 title" %}</h1>
+      <hr>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">{% placeholder "aup section 7 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECURITY -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 8 title" %}</h1>
+      <hr>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">{% placeholder "aup section 8 detail" %}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DMCA / LEGAL -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "aup section 9 title" %}</h1>
+      <hr>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">{% placeholder "aup section 9 detail" %}</div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}

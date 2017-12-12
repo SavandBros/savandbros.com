@@ -1,0 +1,6 @@
+{# TODO: Implement me! #}
+{% for team_member in instance.team.teammember_set.all %}
+    {{ team_member.picture }} <br>
+    {{ team_member.name }} <br>
+    {{ team_member.bio }} <br>
+{% endfor %}

@@ -1,0 +1,12 @@
+<ul class="nav navbar-nav">
+  <!-- All links -->
+  {% for nav_link in instance.menu.ancestors %}
+    {% if nav_link.children.all|length %}
+      {% include "menu_builder/dropdown.html" with nav_link=nav_link %}
+    {% else %}
+      <li class="">
+        <a href="{{ nav_link.link }}">{{ nav_link.label }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

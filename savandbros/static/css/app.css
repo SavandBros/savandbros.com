@@ -1,0 +1,72 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700");
+
+/* Global */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a, button {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+/* Title */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    line-height: 1.4;
+}
+
+h1.title {
+    font-size: 4rem;
+}
+
+/* Navbar */
+
+.navbar {
+    border-bottom: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+    margin-right: 50px;
+}
+
+.navbar input {
+    border-radius: 1000px;
+}
+
+/* Cover */
+
+.cover {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 100000px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.bg-landing {
+    background-image: url("../img/landing.086cd14219a0.jpg");
+}
+
+/* Button */
+.btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Image */
+
+.img-circle {
+    border-radius: 10000px;
+}
+
+/* Footer */
+
+.footer a {
+    margin-right: 15px;
+}

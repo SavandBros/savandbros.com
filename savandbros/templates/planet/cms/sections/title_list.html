@@ -1,0 +1,13 @@
+<div class="container s-pad-y-hard">
+  <div class="row">
+    {% for item in instance.section.items.all %}
+      <div class="col-lg-4">
+        <h1>{{ item.title }}</h1>
+        <hr>
+        <ul class="list-unstyled">
+          {{ item.description }}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</div>

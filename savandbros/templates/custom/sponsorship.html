@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "sponsorship title" %}</h1>
+      <hr>
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          {% placeholder "sponsorship info" %}
+          <a href="https://dash.kloud51.com/submitticket.php?step=2&deptid=6" class="btn btn-success">
+            <i class="fa fa fa-phone-square fa-fw"></i> {% placeholder "contact us button text" %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tell Us About -->
+  <div class="container-fluid container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "tell us about title" %}</h1>
+      <hr>
+      <!-- Information -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h4>
+            <i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "tell us about question 1" %}
+          </h4>
+          <hr>
+          <h4>
+            <i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "tell us about question 2" %}
+          </h4>
+          <hr>
+          <h4>
+            <i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "tell us about question 3" %}
+          </h4>
+          <hr>
+          <h4>
+            <i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "tell us about question 4" %}
+          </h4>
+          <hr>
+          <h4>
+            <i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "tell us about question 5" %}
+          </h4>
+          <hr>
+          <h4>
+            <i class="fa fa-chevron-circle-right fa-fw text-primary"></i> {% placeholder "tell us about question 6" %}
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Note -->
+  <div class="container-fluid bg-1 container-content">
+    <div class="container s-pad-y-hard">
+      <!-- Title -->
+      <h1 class="title-header">{% placeholder "note title" %}</h1>
+      <hr>
+      <!-- Notes -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          {% placeholder "note info" %}
+          <a href="https://dash.kloud51.com/submitticket.php?step=2&deptid=6" class="btn btn-primary">
+            <i class="fa fa-paper-plane fa-fw"></i> {% placeholder "note button text" %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
