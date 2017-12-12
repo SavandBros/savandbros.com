@@ -59,9 +59,12 @@ class SectionItemInline(SortableInlineAdminMixin, TranslationStackedInline):
 
 
 @admin.register(Section)
-class SectionAdmin(TabbedDjangoJqueryTranslationAdmin):
+class SectionAdmin(TabbedTranslationAdmin):
     list_display: Tuple[str] = ('name', )
     search_fields: Tuple[str] = ('name', 'description', )
+    inlines = [
+        SectionItemInline,
+    ]
 
 
 @admin.register(SectionItem)
