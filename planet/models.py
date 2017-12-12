@@ -174,12 +174,14 @@ class Section(models.Model):
         null=True,
     )
     image = FilerImageField(
+        related_name='images',
         verbose_name=_('image'),
         help_text=_('Can be used for background image or the whole section.'),
         blank=True,
         null=True
     )
-    secondary_image = models.ImageField(
+    secondary_image = FilerImageField(
+        related_name='secondary_images',
         verbose_name=_('secondary image'),
         blank=True,
         null=True,
