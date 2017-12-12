@@ -19,7 +19,7 @@ Make sure you have the following requirements:
 Clone the repo:
 
 ```
-git clone git@github.com:SavandBros/kloud51.git && cd kloud51
+git clone git@github.com:SavandBros/savandbros.git && cd savandbros
 ```
 
 Install dependencies:

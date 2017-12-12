@@ -1,5 +1,5 @@
 """
-WSGI config for kloud51 project.
+WSGI config for SavandBros project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
