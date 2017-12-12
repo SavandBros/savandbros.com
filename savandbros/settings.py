@@ -17,7 +17,7 @@ ROLLBAR_TOKEN = os.environ.get('ROLLBAR_TOKEN')
 ALLOWED_HOSTS = [
     '192.168.56.1',
     'staging.savandbros.com',
-    'beta.savandbros.com',
+    'wwww.savandbros.com',
     'savandbros.com',
     'localhost',
     '127.0.0.1',
