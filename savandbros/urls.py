@@ -16,10 +16,10 @@ admin.autodiscover()
 urlpatterns = [
     url(r'^sitemap\.xml$', sitemap,
         {'sitemaps': {'cmspages': CMSSitemap}}),
-    url(r'^admin/', include(admin.site.urls)),  # NOQA
 ]
 
 urlpatterns += i18n_patterns(
+    url(r'^admin/', include(admin.site.urls)),  # NOQA
     url(r'^planet/', include('planet.urls', namespace='planet')),
     url(r'^', include('cms.urls')),
 )
