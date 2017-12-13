@@ -1,15 +1,17 @@
-<div class="container faq-container {{ instance.section.css_classes }}">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <!-- Title -->
-      <h1 class="t-bold text-left">{{ instance.section.name }}</h1>
-      <!-- Featires -->
-      {% for item in instance.section.items.all %}
-        <br>
-        <h2 class="t-bold">{{ item.title }}</h2>
-        {{ item.description }}
-        <br>
-      {% endfor %}
+<div class="{{ instance.section.css_classes }}">
+  <div class="container faq-container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <!-- Title -->
+        <h1 class="t-bold text-left">{{ instance.section.name }}</h1>
+        <!-- Featires -->
+        {% for item in instance.section.items.all %}
+          <br>
+          <h2 class="t-bold">{{ item.title }}</h2>
+          {{ item.description }}
+          <br>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

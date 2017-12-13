@@ -1,14 +1,14 @@
-<div class="container title-list-container {{ instance.section.css_classes }}">
-  <div class="row">
-    <!-- Features -->
-    {% for item in instance.section.items.all %}
-      <div class="col-lg-4">
-        <h1>{{ item.title }}</h1>
-        <hr>
-        <ul class="list-unstyled">
+<div class="{{ instance.section.css_classes }}">>
+  <div class="container title-list-container">
+    <div class="row">
+      <!-- Features -->
+      {% for item in instance.section.items.all %}
+        <div class="col-lg-4">
+          <h1>{{ item.title }}</h1>
+          <hr>
           {{ item.description }}
-        </ul>
-      </div>
-    {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
-</div>
+</div
