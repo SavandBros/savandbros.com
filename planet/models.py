@@ -221,6 +221,7 @@ class SectionItem(models.Model):
     )
     icon_color = ColorField(blank=True, null=True)
     image = FilerImageField(verbose_name=_('image'), blank=True, null=True)
+    col_class = models.CharField(verbose_name=_('column class'), blank=True, null=True, max_length=100)
     external_link = models.URLField(
         verbose_name=_('external link'),
         blank=True,
