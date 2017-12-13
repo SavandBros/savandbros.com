@@ -1,0 +1,15 @@
+<div class="container {{ instance.section.css }} three-info-container s-pad-y">
+  <div class="row">
+    <!-- List -->
+    {% for item in instance.section.items.all %}
+      <div class="three-info {{ item.col_class }}">
+        <div class="row">
+          <!-- Icon -->
+          <div class="col-2 align-self-center"><i class="{{ item.icon }}"></i></div>
+          <!-- Info -->
+          <div class="col-10">{{ item.description }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
