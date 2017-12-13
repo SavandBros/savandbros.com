@@ -67,3 +67,120 @@ h1.title {
 .footer a {
     margin-right: 15px;
 }
+
+
+/* Image */
+
+.img-shadow {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+/* App */
+
+.app {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    font-size: 2em;
+    color: #fff;
+    border-radius: 2px;
+    transition: all 0.15s ease-in-out;
+    margin: 15px 0;
+}
+
+.app:hover,
+.app:focus {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 8px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.app:active {
+    background: #fff;
+}
+
+.app:active span {
+    color: #333;
+    text-shadow: none;
+}
+
+.app .logo {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 3em;
+    height: 120px;
+}
+
+.app .logo img {
+    width: 100px;
+    margin-top: -20px;
+}
+
+/* Feature */
+
+.feature {
+    margin: 30px 0;
+}
+
+/* Feature image */
+
+.feature-image {
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+/* Feature icon */
+
+.feature-icon {
+    width: 128px;
+    height: 128px;
+    border: 4px solid #ddd;
+    border-radius: 100%;
+    padding-top: 35px;
+    font-size: 4em;
+    background: cornflowerblue;
+    color: #fff;
+    text-shadow: -3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Why list */
+
+.icon-title > div {
+    margin-bottom: 40px;
+}
+
+.icon-title .row div:first-of-type {
+    text-align: right;
+}
+
+.icon-title .fa {
+    font-size: 40px;
+    text-align: center;
+    width: 85px;
+    line-height: 85px;
+    height: 85px;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid;
+    margin-top: 25px;
+}
+
+.icon-title p {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .icon-title .fa {
+        margin: 0 0 10px 0 !important;
+    }
+
+    .icon-title .row div {
+        text-align: center !important;
+    }
+}
