@@ -198,3 +198,16 @@ h1.title {
         text-align: center !important;
     }
 }
+
+/* Three info */
+
+.three-info .fa {
+    font-size: 4em;
+    color: #ddd;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.three-info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
