@@ -19,6 +19,10 @@
     padding-bottom: 25px;
 }
 
+.s-mar-no {
+  margin: 0;
+}
+
 /* Text */
 
 .t-bold {
