@@ -152,7 +152,7 @@ h1.title {
 /* Why list */
 
 .icon-title > div {
-    margin-bottom: 40px;
+    margin: 30px 0;
 }
 
 .icon-title .row div:first-of-type {
@@ -172,7 +172,12 @@ h1.title {
 }
 
 .icon-title p {
-    opacity: 0.8;
+    color: #aaa;
+}
+
+.icon-title h3 {
+    font-weight: bold;
+    color: #666;
 }
 
 @media (max-width: 768px) {
