@@ -1,7 +1,9 @@
-<div class="container-fluid bg-grad-2">
+<div class="container-fluid bg-grad-2 app-container">
   <div class="container s-pad-y-hard">
+    <!-- Title -->
     <h1 class="title">{{ instance.section.name }}</h1>
     <br>
+    <!-- Features -->
     <div class="row">
       {% for item in instance.section.items.all %}
         <div class="col-xs-6 col-md-4">
@@ -10,11 +12,9 @@
               {% if item.icon %}
                 <i class="{{ item.icon }}" {% if item.icon_color %}style="color: {{ item.icon_color }}"{% endif %}></i>
               {% endif %}
-
               {% if item.image %}
                 <img src="{{ item.image.url }}">
               {% endif %}
-
             </div>
             <span>{{ item.title }}</span>
           </a>
