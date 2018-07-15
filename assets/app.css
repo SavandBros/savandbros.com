@@ -101,7 +101,7 @@ section.sides .side-image {
 
 /* Mobile */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
     section {
         text-align: center;
     }
@@ -110,7 +110,7 @@ section.sides .side-image {
         padding-bottom: 100px;
     }
     section.sides {
-        border: 2px solid rgba(0, 0, 0, 0.8) !important;
+        border: 1px solid rgba(0, 0, 0, 0.8) !important;
     }
     section.sides .side-content {
         padding-top: 60px;
