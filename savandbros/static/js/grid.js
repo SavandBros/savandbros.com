@@ -1,6 +1,0 @@
-/**
- * Javascript-Equal-Height-Responsive-Rows
- * https://github.com/Sam152/Javascript-Equal-Height-Responsive-Rows
- */
- (function(e){e.fn.equalHeight=function(){var t=[];e.each(this,function(n,r){$element=e(r);var i;var s=$element.css("box-sizing")=="border-box"||$element.css("-moz-box-sizing")=="border-box";if(s){i=$element.innerHeight()}else{i=$element.height()}t.push(i)});this.height(Math.max.apply(window,t));return this};e.fn.equalHeightGrid=function(t){var n=this;n.css("height","auto");for(var r=0;r<n.length;r++){if(r%t===0){var i=e(n[r]);for(var s=1;s<t;s++){i=i.add(n[r+s])}i.equalHeight()}}return this};e.fn.detectGridColumns=function(){var t=0,n=0;this.each(function(r,i){var s=e(i).offset().top;if(t===0||s==t){n++;t=s}else{return false}});return n};e.fn.responsiveEqualHeightGrid=function(){function n(){var e=t.detectGridColumns();t.equalHeightGrid(e)}var t=this;e(window).bind("resize load",n);n();return this}})(jQuery)
-function grid(selector){$(selector).responsiveEqualHeightGrid()}
