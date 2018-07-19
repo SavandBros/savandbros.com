@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-exec": "^3.0.2",
+    "gulp-htmlmin": "^4.0.0"
+  }
+}

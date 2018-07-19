@@ -5,11 +5,11 @@
     <!-- Meta data -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Savand Bros">
-    <meta name="author" content="Savand Bros">
+    <meta name="description" content='{{ i18n "savand_bros" }}'>
+    <meta name="author" content='{{ i18n "savand_bros" }}'>
 
     <!-- Title and favicon -->
-    <title>Savand Bros</title>
+    <title>{{ i18n "savand_bros" }}</title>
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
     <!-- Styles -->
@@ -24,7 +24,7 @@
       <div class="container p-3">
         <!-- Brand -->
         <a class="navbar-brand" href="/">
-          <img src="assets/img/favicon.png" width="32"alt="Savand Bros"> Savand Bros
+          <img src="assets/img/favicon.png" width="32" alt='{{ i18n "savand_bros" }}'> {{ i18n "savand_bros" }}
         </a>
         <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav">
@@ -33,9 +33,9 @@
         <!-- Links -->
         <div class="collapse navbar-collapse" id="nav">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#kloud51">Create a Website</a>
-            <a class="nav-item nav-link" href="#gonevis">Start a Blog</a>
-            <a class="nav-item nav-link" href="#contactus">Contact Us</a>
+            <a class="nav-item nav-link" href="#kloud51">{{ i18n "create_website" }}</a>
+            <a class="nav-item nav-link" href="#gonevis">{{ i18n "start_blog" }}</a>
+            <a class="nav-item nav-link" href="#contactus">{{ i18n "contact_us" }}</a>
           </div>
         </div>
       </div>
@@ -44,14 +44,10 @@
     <!-- Section: Cover -->
     <section id="cover" class="container-fluid tall cover">
       <div class="container">
-        <h1>We are Savand Bros</h1>
+        <h1>{{ i18n "we_are_savand_bros" }}</h1>
         <div class="row">
           <div class="col-lg-8">
-            <p>
-              We provide services in Cloud Computing, Web Design, Web Hosting,
-              Develop &amp; Deploy Online Shopping Stores, Online Marketing and
-              Advertisement, Manage Advertisement Campaigns and Planning Advertisement Campaigns.
-            </p>
+            <p>{{ i18n "we_provide" }}</p>
           </div>
         </div>
       </div>
@@ -60,25 +56,25 @@
     <!-- Section: Products -->
     <section id="products" class="container-fluid short text-dark bg-light border-bottom">
       <div class="container text-center">
-        <h1 class="text-info">Products</h1>
+        <h1 class="text-info">{{ i18n "products" }}</h1>
         <hr>
         <div class="row">
           <div class="col-md-4">
             <a class="text-secondary" target="_blank" href="https://kloud51.com/">
               <img src="assets/img/kloud51.png" class="rounded-circle border p-3" alt="Kloud51">
-              <h3 class="mt-4">Kloud51</h3>
+              <h3 class="mt-4">{{ i18n "kloud51" }}</h3>
             </a>
           </div>
           <div class="col-md-4 mt-5 mt-lg-0 mt-md-0">
             <a class="text-secondary" target="_blank" href="https://gonevis.com/">
               <img src="assets/img/gonevis.png" class="rounded-circle border p-3" alt="GoNevis">
-              <h3 class="mt-4">GoNevis</h3>
+              <h3 class="mt-4">{{ i18n "gonevis" }}</h3>
             </a>
           </div>
           <div class="col-md-4 mt-5 mt-lg-0 mt-md-0">
             <a class="text-secondary" target="_blank" href="https://github.com/SavandBros/whisper">
               <img src="assets/img/whisper.png" class="rounded-circle border p-3" alt="Whisper">
-              <h3 class="mt-4">Whisper</h3>
+              <h3 class="mt-4">{{ i18n "whisper" }}</h3>
             </a>
           </div>
         </div>
@@ -91,13 +87,10 @@
         <div class="col-md-6 side-image"></div>
         <div class="col-md-6 side-content">
           <div class="container">
-            <h1><a href="https://kloud51.com">Kloud51</a></h1>
-            <p><b>Build your own professional website.</b></p>
-            <p>
-              Kloud51 offers Premium web hosting services at low prices to our
-              customers without compromising reliability and great customer service.
-            </p>
-            <p><a class="btn btn-lg btn-success" href="https://kloud51.com/#plans">Web Hosting Plans</a></p>
+            <h1><a href="https://kloud51.com">{{ i18n "kloud51" }}</a></h1>
+            <p><b>{{ i18n "kloud51_title" }}</b></p>
+            <p>{{ i18n "kloud51_detail" }}</p>
+            <p><a class="btn btn-lg btn-success" href="https://kloud51.com/#plans">{{ i18n "kloud51_button" }}</a></p>
           </div>
         </div>
       </div>
@@ -108,10 +101,10 @@
       <div class="row">
         <div class="col-md-6 side-content">
           <div class="container">
-            <h1><a href="https://gonevis.com">GoNevis</a></h1>
-            <p><b>Blogging. Now for the rest of us.</b></p>
-            <p>GoNevis lets you start your blog, write and share for free.</p>
-            <p><a class="btn btn-lg btn-success" href="https://dash.gonevis.com">Create your Blog</a></p>
+            <h1><a href="https://gonevis.com">{{ i18n "gonevis" }}</a></h1>
+            <p><b>{{ i18n "gonevis_title" }}</b></p>
+            <p>{{ i18n "gonevis_detail" }}</p>
+            <p><a class="btn btn-lg btn-success" href="https://dash.gonevis.com">{{ i18n "gonevis_button" }}</a></p>
           </div>
         </div>
         <div class="col-md-6 side-image"></div>
@@ -124,9 +117,9 @@
         <div class="col-md-6 side-image"></div>
         <div class="col-md-6 side-content">
           <div class="container">
-            <h1><a href="https://github.com/SavandBros/whisper">Whisper</a></h1>
-            <p><b>Minimal multi-platform messaging app.</b></p>
-            <p>Whisper is under development and it's coming soon!</p>
+            <h1><a href="https://github.com/SavandBros/whisper">{{ i18n "whisper" }}</a></h1>
+            <p><b>{{ i18n "whisper_title" }}</b></p>
+            <p>{{ i18n "whisper_detail" }}</p>
           </div>
         </div>
       </div>
@@ -135,17 +128,19 @@
     <!-- Section: Contact Us -->
     <section id="contactus" class="container-fluid cover tall light text-dark text-center">
       <div class="container">
-        <h1 class="text-info">Contact Us</h1>
+        <h1 class="text-info">{{ i18n "contact_us" }}</h1>
         <div class="row mt-5 justify-content-center text-center">
           <div class="col-md-6">
             <form class="form" onsubmit="contactUs(this)">
               <div class="form-group">
-                <input id="subject" type="text" class="form-control form-control-lg" placeholder="Subject"/>
+                <input id="subject" type="text" placeholder="{{ i18n "subject" }}"
+                  class="form-control form-control-lg"/>
               </div>
               <div class="form-group">
-                <textarea id="message" rows="6" class="form-control form-control-lg" placeholder="Message"></textarea>
+                <textarea id="message" rows="6" placeholder="{{ i18n "message" }}"
+                  class="form-control form-control-lg"></textarea>
               </div>
-              <button class="btn btn-info btn-lg">Send</button>
+              <button class="btn btn-info btn-lg">{{ i18n "send" }}</button>
             </form>
           </div>
         </div>
@@ -157,42 +152,35 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md">
-            <p class="mb-3 text-muted">
-              Savand Bros &copy; 2018 <br />
-              Made with ❤ in Moscow.
-            </p>
+            <p class="mb-3 text-muted">Savand Bros &copy; 2018<br>{{ i18n "footer_text" }}</p>
           </div>
           <div class="col-6 col-md">
             <h5>What we do</h5>
             <ul class="list-unstyled text-small">
               <!-- <li><a class="text-muted" href="#">Software Development</a></li> -->
-              <li><a class="text-muted" href="https://kloud51.com/">Web Hosting</a></li>
+              <li><a class="text-muted" href="https://kloud51.com/">{{ i18n "web_hosting" }}</a></li>
               <!-- <li><a class="text-muted" href="#">Game Development</a></li> -->
-              <li><a class="text-muted" href="https://gonevis.com/">Blogging &amp; Publishing Software</a></li>
-              <li><a class="text-muted" href="https://github.com/SavandBros/">Open Source</a></li>
+              <li><a class="text-muted" href="https://gonevis.com/">{{ i18n "blog_and_pub" }}</a></li>
+              <li><a class="text-muted" href="https://github.com/SavandBros/">{{ i18n "open_source" }}</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
-            <h5>Products</h5>
+            <h5>{{ i18n "products" }}</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="https://kloud51.com/">Kloud51.com</a></li>
-              <li><a class="text-muted" href="https://gonevis.com">GoNevis.com</a></li>
-              <li><a class="text-muted" href="https://github.com/SavandBros/whisper">Whisper</a></li>
-              <li><a class="text-muted" href="https://breakers-force.savandbros.com">Breakers Force</a></li>
-              <li><a class="text-muted" href="http://badge.kloud51.com">Badge</a></li>
+              <li><a class="text-muted" href="https://kloud51.com/">{{ i18n "kloud51" }}</a></li>
+              <li><a class="text-muted" href="https://gonevis.com">{{ i18n "gonevis" }}</a></li>
+              <li><a class="text-muted" href="https://github.com/SavandBros/whisper">{{ i18n "whisper" }}</a></li>
+              <li><a class="text-muted" href="https://breakers-force.savandbros.com">{{ i18n "breakers_force" }}</a></li>
+              <li><a class="text-muted" href="http://badge.kloud51.com">{{ i18n "badge" }}</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
-            <h5>Company</h5>
+            <h5>{{ i18n "company" }}</h5>
             <ul class="list-unstyled text-small text-muted">
-              <li>Email: <a href="mailto:hello@savandbros.com">hello@savandbros.com</a></li>
-              <li>INN: 7720388894</li>
-              <li>ORGN: 1177746729522</li>
-              <li>
-                <span>Address:</span>
-                <a href="https://goo.gl/maps/DfUYNnX7Xd82">
-                  Address: 2А, Ulitsa Shkuleva, Moscow, 109263, Floor 2, Office 11</a>
-                </li>
+              <li>{{ i18n "email" }} <a href="mailto:hello@savandbros.com">hello@savandbros.com</a></li>
+              <li>{{ i18n "inn" }} {{ i18n "inn_info" }}</li>
+              <li>{{ i18n "orgn" }} {{ i18n "orgn_info" }}</li>
+              <li>{{ i18n "address" }} <a href="https://goo.gl/maps/DfUYNnX7Xd82">{{ i18n "address_info" }}</a></li>
             </ul>
           </div>
         </div>
