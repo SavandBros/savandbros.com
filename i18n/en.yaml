@@ -54,10 +54,8 @@
   translation: "Blogging & Publishing Software"
 - id: "open_source"
   translation: "Open Source"
-- id: copyright
-  translation: "Savand Bros © 2018"
 - id: footer_text
-  translation: "Made with ❤ in Moscow"
+  translation: "Made with ❤ in Moscow."
 - id: address_info
   translation: "Address: 2А, Ulitsa Shkuleva, Moscow, 109263, Floor 2, Office 11"
 - id: address
