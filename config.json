@@ -12,6 +12,12 @@
       "languageName": "Farsi",
       "title": "ساوند بروز",
       "weight": 1
+    },
+    "ru": {
+      "baseURL": "https://savandbros.com/ru",
+      "languageName": "Russian",
+      "title": "Russia",
+      "weight": 2
     }
   }
 }
