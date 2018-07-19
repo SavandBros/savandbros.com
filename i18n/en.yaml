@@ -57,7 +57,7 @@
 - id: footer_text
   translation: "Made with ❤ in Moscow."
 - id: address_info
-  translation: "Address: 2А, Ulitsa Shkuleva, Moscow, 109263, Floor 2, Office 11"
+  translation: "2А, Ulitsa Shkuleva, Moscow, 109263, Floor 2, Office 11"
 - id: address
   translation: "Address:"
 - id: email
