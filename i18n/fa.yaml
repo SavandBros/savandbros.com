@@ -1,10 +1,72 @@
-- id: head_title
-  translation: "ساوند بروز"
 - id: savand_bros
   translation: "ساوند بروز"
 - id: create_website
-  translation: "یک وبسایت بساز"
+  translation: "ساخت یک وبسایت"
 - id: start_blog
-  translation: "یک وبلاگ را شروع کن"
+  translation: "شروع یک وبلاگ"
 - id: contact_us
   translation: "تماس با ما"
+- id: we_are_savand_bros
+  translation: "ما ساوند بروز هستیم"
+- id: we_provide
+  translation: "We provide services in Cloud Computing, Web Design, Web Hosting, Develop & Deploy Online Shopping Stores, Online Marketing and Advertisement, Manage Advertisement Campaigns and Planning Advertisement Campaigns."
+- id: kloud51
+  translation: "Kloud51"
+- id: kloud51_title
+  translation: "وبسایت حرفه ای خود را بسازید."
+- id: kloud51_detail
+  translation: "کلود51 با داشتن اطمینان بالا و خدمات مشتریان بسیار خوب  به مشتریان خود خدماتی باورنکرنی با تعرفه های عالی ارایه میدهد."
+- id: kloud51_button
+  translation: "تعرفه های میزبانی وب"
+- id: gonevis
+  translation: "GoNevis"
+- id: gonevis_title
+  translation: "وبلاگ نویسی. حالا برای همه ما."
+- id: gonevis_detail
+  translation: "با گونویس، یک وبلاگ ایجاد کنید، به رایگان بنویسید و به اشتراک بگذارید."
+- id: gonevis_button
+  translation: "وبلاگ خود را بسازید."
+- id: whisper
+  translation: "Whisper"
+- id: whisper_title
+  translation: "برنامه ای خلاصه برای پیام رسانی."
+- id: whisper_detail
+  translation: "پیام رسان ویسپر در حال توسعه است و بزودی منتشر میشود."
+- id: breakers_force
+  translation: "Breakers Force"
+- id: badge
+  translation: "Badge"
+- id: products
+  translation: "محصولات"
+- id: message
+  translation: "پیان"
+- id: subject
+  translation: "عنوان"
+- id: send
+  translation: "ارسال"
+- id: what_we_do
+  translation: "ما چیکار میکنیم"
+- id: company
+  translation: "شرکت"
+- id: "web_hosting"
+  translation: "میزبانی وب"
+- id: "blog_and_pub"
+  translation: "وبلاگ نویسی و نرم افزار انتشارات"
+- id: "open_source"
+  translation: "متن باز"
+- id: footer_text
+  translation: "ساخته شده با ❤ در مسکو"
+- id: address_info
+  translation: "مسکو، 109263، خیابان اشکولوا، ساختمان 2A، طبقه دوم، دفتر 11"
+- id: address
+  translation: "آدرس:"
+- id: email
+  translation: "پست الکترونیک"
+- id: inn
+  translation: "شماره مالیاتی:"
+- id: inn_info
+  translation: "7720388894"
+- id: orgn
+  translation: "شماره ثبت:"
+- id: orgn_info
+  translation: "1177746729522"
