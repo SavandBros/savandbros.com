@@ -1,5 +1,3 @@
-- id: head_title
-  translation: "Savand Bros"
 - id: savand_bros
   translation: "Savand Bros"
 - id: create_website
@@ -8,3 +6,69 @@
   translation: "Start a Blog"
 - id: contact_us
   translation: "Contact Us"
+- id: we_are_savand_bros
+  translation: "We are Savand Bros"
+- id: we_provide
+  translation: "We provide services in Cloud Computing, Web Design, Web Hosting, Develop & Deploy Online Shopping Stores, Online Marketing and Advertisement, Manage Advertisement Campaigns and Planning Advertisement Campaigns."
+- id: kloud51
+  translation: "Kloud51"
+- id: kloud51_title
+  translation: "Build your own professional website."
+- id: kloud51_detail
+  translation: "Kloud51 offers Premium web hosting services at low prices to our customers without compromising reliability and great customer service."
+- id: kloud51_button
+  translation: "Web Hosting Plans"
+- id: gonevis
+  translation: "GoNevis"
+- id: gonevis_title
+  translation: "Blogging. Now for the rest of us."
+- id: gonevis_detail
+  translation: "GoNevis lets you start your blog, write and share for free."
+- id: gonevis_button
+  translation: "Create your Blog"
+- id: whisper
+  translation: "Whisper"
+- id: whisper_title
+  translation: "Minimal multi-platform messaging app."
+- id: whisper_detail
+  translation: "Whisper is under development and it's coming soon!"
+- id: breakers_force
+  translation: "Breakers Force"
+- id: badge
+  translation: "Badge"
+- id: products
+  translation: "Products"
+- id: message
+  translation: "Message"
+- id: subject
+  translation: "Subject"
+- id: send
+  translation: "Send"
+- id: what_we_do
+  translation: "What We Do"
+- id: company
+  translation: "Company"
+- id: "web_hosting"
+  translation: "Web Hosting"
+- id: "blog_and_pub"
+  translation: "Web Hosting"
+- id: "open_source"
+  translation: "Open Source"
+- id: copyright
+  translation: "Savand Bros © 2018"
+- id: footer_text
+  translation: "Made with ❤ in Moscow"
+- id: address_info
+  translation: "Address: 2А, Ulitsa Shkuleva, Moscow, 109263, Floor 2, Office 11"
+- id: address
+  translation: "Address:"
+- id: email
+  translation: "Email:"
+- id: inn
+  translation: "INN:"
+- id: inn_info
+  translation: "7720388894"
+- id: orgn
+  translation: "ORGN:"
+- id: orgn_info
+  translation: "1177746729522"
