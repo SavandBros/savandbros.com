@@ -1,0 +1,24 @@
+{
+  "name": "savandbros",
+  "version": "1.0.0",
+  "description": "Savand Bros main website",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-exec": "^3.0.2",
+    "gulp-htmlmin": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SavandBros/savandbros.git"
+  },
+  "author": "Savand Bros",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SavandBros/savandbros/issues"
+  },
+  "homepage": "https://github.com/SavandBros/savandbros#readme"
+}
