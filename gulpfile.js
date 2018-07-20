@@ -18,3 +18,9 @@ gulp.task("build", function() {
     console.log(stderr);
   });
 });
+gulp.task("serve", function () {
+  exec("hugo server -D", function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+  });
+});
