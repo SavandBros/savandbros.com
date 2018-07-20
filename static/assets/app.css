@@ -49,6 +49,29 @@ a .border:hover {
 }
 
 
+/* Footer */
+
+footer {
+    color: #6c757d;
+}
+
+footer h5 {
+    color: #343a40;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: #6c757d;
+}
+
+
 /* Section */
 
 section {
