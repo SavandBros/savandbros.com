@@ -2,7 +2,7 @@
   "DefaultContentLanguage": "en",
   "languages": {
     "en": {
-      "baseURL": "https://savandbros.com/en",
+      "baseURL": "https://savandbros.com",
       "languageName": "English",
       "title": "English",
       "weight": 0
