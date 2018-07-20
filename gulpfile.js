@@ -9,6 +9,10 @@ gulp.task("minify", function() {
 });
 
 gulp.task("build", function() {
+  exec("rm -rf ./public/", function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+  });
   exec("hugo", function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
