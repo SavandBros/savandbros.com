@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container p-3">
         <!-- Brand -->
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{ .Permalink }}">
           <img src="assets/img/favicon.png" width="32" alt='{{ i18n "savand_bros" }}'> {{ i18n "savand_bros" }}
         </a>
         <!-- Toggle button -->
@@ -36,6 +36,17 @@
             <a class="nav-item nav-link" href="#kloud51">{{ i18n "create_website" }}</a>
             <a class="nav-item nav-link" href="#gonevis">{{ i18n "start_blog" }}</a>
             <a class="nav-item nav-link" href="#contactus">{{ i18n "contact_us" }}</a>
+            <!-- Language selection -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                {{ .Language.Title }}
+              </a>
+              <div class="dropdown-menu">
+                {{ range .Translations }}
+                <a href="{{ .Permalink }}" class="dropdown-item">{{ .Title }}</a>
+                {{ end }}
+              </div>
+            </li>
           </div>
         </div>
       </div>
@@ -192,6 +203,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/js/dist/util.js"></script>
     <script src="node_modules/bootstrap/js/dist/collapse.js"></script>
+    <script src="node_modules/bootstrap/js/dist/dropdown.js"></script>
     <script src="assets/app.js"></script>
   </body>
 </html>
