@@ -4,20 +4,17 @@
     "en": {
       "baseURL": "https://savandbros.com",
       "languageName": "English",
-      "title": "English",
-      "weight": 2
+      "title": "English"
     },
     "fa": {
       "baseURL": "https://savandbros.com/fa",
       "languageName": "Farsi",
-      "title": "ساوند بروز",
-      "weight": 1
+      "title": "فارسی"
     },
     "ru": {
       "baseURL": "https://savandbros.com/ru",
       "languageName": "Russian",
-      "title": "Russia",
-      "weight": 0
+      "title": "Русский"
     }
   }
 }
