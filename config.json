@@ -5,7 +5,7 @@
       "baseURL": "https://savandbros.com",
       "languageName": "English",
       "title": "English",
-      "weight": 0
+      "weight": 2
     },
     "fa": {
       "baseURL": "https://savandbros.com/fa",
@@ -17,7 +17,7 @@
       "baseURL": "https://savandbros.com/ru",
       "languageName": "Russian",
       "title": "Russia",
-      "weight": 2
+      "weight": 0
     }
   }
 }
