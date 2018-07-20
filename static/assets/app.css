@@ -13,6 +13,19 @@ a .border:hover {
 }
 
 
+/* Dir Style */
+
+[dir=rtl] .ml-auto {
+    margin-right: auto;
+    margin-left: initial !important;
+}
+
+[dir=rtl] #cover .container,
+[dir=rtl] footer .container {
+    text-align: right;
+}
+
+
 /* Form control */
 
 .form-control {
