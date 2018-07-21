@@ -16,7 +16,7 @@ In case of adding a new text to the content, add the translation to tha that fil
 > npm run sync-trans
 ```
 
-It will add any new or missing translations to other translatio files.
+It will add any new or missing translations to other translation files.
 
 
 ## License
