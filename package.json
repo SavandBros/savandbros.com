@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "sync-trans": "node scripts/sync_trans.js"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-exec": "^3.0.2",
