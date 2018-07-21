@@ -2,17 +2,14 @@
   "DefaultContentLanguage": "en",
   "languages": {
     "en": {
-      "baseURL": "https://savandbros.com",
       "languageName": "English",
       "title": "English"
     },
     "fa": {
-      "baseURL": "https://savandbros.com/fa",
       "languageName": "Farsi",
       "title": "فارسی"
     },
     "ru": {
-      "baseURL": "https://savandbros.com/ru",
       "languageName": "Russian",
       "title": "Русский"
     }
