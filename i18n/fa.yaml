@@ -61,7 +61,7 @@
 - id: address
   translation: "آدرس:"
 - id: email
-  translation: "پست الکترونیک"
+  translation: "پست الکترونیک:"
 - id: inn
   translation: "شماره مالیاتی:"
 - id: inn_info

@@ -13,6 +13,19 @@ a .border:hover {
 }
 
 
+/* Dir Style */
+
+[dir=rtl] .ml-auto {
+    margin-right: auto;
+    margin-left: initial !important;
+}
+
+[dir=rtl] #cover .container,
+[dir=rtl] footer .container {
+    text-align: right;
+}
+
+
 /* Form control */
 
 .form-control {
@@ -33,6 +46,29 @@ a .border:hover {
 .navbar-brand img {
     margin-top: -5px;
     margin-right: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    color: #6c757d;
+}
+
+footer h5 {
+    color: #343a40;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: #6c757d;
 }
 
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="{{ if eq .Language.Lang "fa" }}rtl{{ else }}ltr{{ end }}">
   <head>
 
     <!-- Meta data -->
@@ -152,31 +152,31 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md">
-            <p class="mb-3 text-muted">Savand Bros &copy; 2018<br>{{ i18n "footer_text" }}</p>
+            <p clas>Savand Bros &copy; 2018<br>{{ i18n "footer_text" }}</p>
           </div>
           <div class="col-6 col-md">
             <h5>What we do</h5>
-            <ul class="list-unstyled text-small">
-              <!-- <li><a class="text-muted" href="#">Software Development</a></li> -->
-              <li><a class="text-muted" href="https://kloud51.com/">{{ i18n "web_hosting" }}</a></li>
-              <!-- <li><a class="text-muted" href="#">Game Development</a></li> -->
-              <li><a class="text-muted" href="https://gonevis.com/">{{ i18n "blog_and_pub" }}</a></li>
-              <li><a class="text-muted" href="https://github.com/SavandBros/">{{ i18n "open_source" }}</a></li>
+            <ul>
+              <!-- <li><a href="#">Software Development</a></li> -->
+              <li><a href="https://kloud51.com/">{{ i18n "web_hosting" }}</a></li>
+              <!-- <li><a href="#">Game Development</a></li> -->
+              <li><a href="https://gonevis.com/">{{ i18n "blog_and_pub" }}</a></li>
+              <li><a href="https://github.com/SavandBros/">{{ i18n "open_source" }}</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
             <h5>{{ i18n "products" }}</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="https://kloud51.com/">{{ i18n "kloud51" }}</a></li>
-              <li><a class="text-muted" href="https://gonevis.com">{{ i18n "gonevis" }}</a></li>
-              <li><a class="text-muted" href="https://github.com/SavandBros/whisper">{{ i18n "whisper" }}</a></li>
-              <li><a class="text-muted" href="https://breakers-force.savandbros.com">{{ i18n "breakers_force" }}</a></li>
-              <li><a class="text-muted" href="http://badge.kloud51.com">{{ i18n "badge" }}</a></li>
+            <ul>
+              <li><a href="https://kloud51.com/">{{ i18n "kloud51" }}</a></li>
+              <li><a href="https://gonevis.com">{{ i18n "gonevis" }}</a></li>
+              <li><a href="https://github.com/SavandBros/whisper">{{ i18n "whisper" }}</a></li>
+              <li><a href="https://breakers-force.savandbros.com">{{ i18n "breakers_force" }}</a></li>
+              <li><a href="http://badge.kloud51.com">{{ i18n "badge" }}</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
             <h5>{{ i18n "company" }}</h5>
-            <ul class="list-unstyled text-small text-muted">
+            <ul>
               <li>{{ i18n "email" }} <a href="mailto:hello@savandbros.com">hello@savandbros.com</a></li>
               <li>{{ i18n "inn" }} {{ i18n "inn_info" }}</li>
               <li>{{ i18n "orgn" }} {{ i18n "orgn_info" }}</li>

@@ -2,22 +2,19 @@
   "DefaultContentLanguage": "en",
   "languages": {
     "en": {
-      "baseURL": "https://savandbros.com/en",
+      "baseURL": "https://savandbros.com",
       "languageName": "English",
-      "title": "English",
-      "weight": 0
+      "title": "English"
     },
     "fa": {
       "baseURL": "https://savandbros.com/fa",
       "languageName": "Farsi",
-      "title": "ساوند بروز",
-      "weight": 1
+      "title": "فارسی"
     },
     "ru": {
       "baseURL": "https://savandbros.com/ru",
       "languageName": "Russian",
-      "title": "Russia",
-      "weight": 2
+      "title": "Русский"
     }
   }
 }
