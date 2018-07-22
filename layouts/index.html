@@ -10,11 +10,11 @@
 
     <!-- Title and favicon -->
     <title>{{ i18n "savand_bros" }}</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/app.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/app.css">
   </head>
 
   <body>
@@ -24,7 +24,7 @@
       <div class="container p-3">
         <!-- Brand -->
         <a class="navbar-brand" href="{{ .Permalink }}">
-          <img src="assets/img/favicon.png" width="32" alt='{{ i18n "savand_bros" }}'> {{ i18n "savand_bros" }}
+          <img src="/assets/img/favicon.png" width="32" alt='{{ i18n "savand_bros" }}'> {{ i18n "savand_bros" }}
         </a>
         <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav">
@@ -72,19 +72,19 @@
         <div class="row">
           <div class="col-md-4">
             <a class="text-secondary" target="_blank" href="https://kloud51.com/">
-              <img src="assets/img/kloud51.png" class="rounded-circle border p-3" alt="Kloud51">
+              <img src="/assets/img/kloud51.png" class="rounded-circle border p-3" alt="Kloud51">
               <h3 class="mt-4">{{ i18n "kloud51" }}</h3>
             </a>
           </div>
           <div class="col-md-4 mt-5 mt-lg-0 mt-md-0">
             <a class="text-secondary" target="_blank" href="https://gonevis.com/">
-              <img src="assets/img/gonevis.png" class="rounded-circle border p-3" alt="GoNevis">
+              <img src="/assets/img/gonevis.png" class="rounded-circle border p-3" alt="GoNevis">
               <h3 class="mt-4">{{ i18n "gonevis" }}</h3>
             </a>
           </div>
           <div class="col-md-4 mt-5 mt-lg-0 mt-md-0">
             <a class="text-secondary" target="_blank" href="https://github.com/SavandBros/whisper">
-              <img src="assets/img/whisper.png" class="rounded-circle border p-3" alt="Whisper">
+              <img src="/assets/img/whisper.png" class="rounded-circle border p-3" alt="Whisper">
               <h3 class="mt-4">{{ i18n "whisper" }}</h3>
             </a>
           </div>
@@ -199,12 +199,12 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/js/dist/util.js"></script>
-    <script src="node_modules/bootstrap/js/dist/collapse.js"></script>
-    <script src="node_modules/bootstrap/js/dist/dropdown.js"></script>
-    <script src="assets/app.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/js/dist/util.js"></script>
+    <script src="/node_modules/bootstrap/js/dist/collapse.js"></script>
+    <script src="/node_modules/bootstrap/js/dist/dropdown.js"></script>
+    <script src="/assets/app.js"></script>
 
     {{ template "_internal/google_analytics_async.html" . }}
   </body>
