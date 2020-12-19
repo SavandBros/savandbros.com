@@ -112,6 +112,10 @@ $container-max-widths: map-remove(
   margin-bottom: 4rem;
 }
 
+.list-unstyled {
+  padding: 0;
+}
+
 .header {
   @extend .py-4;
 
