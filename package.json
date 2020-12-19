@@ -1,10 +1,19 @@
 {
   "scripts": {
-    "sync-trans": "node scripts/sync_trans.js"
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "clean": "gulp clean"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-exec": "^3.0.2",
-    "gulp-htmlmin": "^4.0.0"
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-html-i18n": "^0.16.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
   }
 }

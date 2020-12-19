@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="{{ _lang_ }}" dir="{{ index.dir }}">
+<head>
+
+  <!-- Meta data -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <meta name="keywords" content="{{ index.keywords }}">
+  <meta name="author" content="{{ index.Savand_Bros }}">
+  <meta name="description" content="{{ index.description }}">
+
+  <!-- Title and favicon -->
+  <base href="/">
+  <title>{{ index.Savand_Bros }}</title>
+  <link rel="icon" type="image/png" sizes="1024x1024" href="asset/img/favicon.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="brand" href="/">
+      <img src="asset/img/favicon.png" alt="{{ index.Savand_Bros }}"> {{ index.Savand_Bros }}
+    </a>
+
+    <!-- Links -->
+    <div class="links">
+      <a href="#gonevis">{{ index.Start_a_Blog }}</a>
+      <a href="#kloud51">{{ index.Create_a_Website }}</a>
+      <a href="#contact-us">{{ index.Contact_Us }}</a>
+    </div>
+  </div>
+</div>
+
+<!-- Cover -->
+<div class="cover">
+  <div class="container">
+    <h1>{{ index.We_are_Savand_Bros }}</h1>
+    <p>{{ index.description }}</p>
+  </div>
+</div>
+
+<!-- Products -->
+<div class="products">
+  <div class="container">
+    <div class="title">{{ index.Our_Products }}</div>
+    <div class="row">
+      <div class="col-lg-3">
+        <a href="https://gonevis.com">
+          <img src="asset/img/product/gonevis.png" alt="GoNevis">
+          <span>GoNevis</span>
+        </a>
+      </div>
+      <div class="col-lg-3">
+        <a href="https://kloud51.com">
+          <img src="asset/img/product/kloud51.png" alt="Kloud51">
+          <span>Kloud51</span>
+        </a>
+      </div>
+      <div class="col-lg-3">
+        <a href="https://expensephere.savandbros.com">
+          <img src="asset/img/product/expensephere.png" alt="Expensephere">
+          <span>Expensephere</span>
+        </a>
+      </div>
+      <div class="col-lg-3">
+        <a href="https://playsem.com">
+          <img src="asset/img/product/playsem.png" alt="PlaysEM">
+          <span>PlaysEM</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product: GoNevis -->
+<div class="product gonevis" id="gonevis">
+  <div class="row">
+    <div class="col-lg-6 image"></div>
+    <div class="col-lg-6 content">
+      <div class="container">
+        <h1><a href="https://gonevis.com">GoNevis</a></h1>
+        <p class="fw-bold">{{ index.gonevis.subtitle }}</p>
+        <p>{{ index.gonevis.description }}</p>
+        <a class="btn btn-lg btn-primary" href="https://gonevis.com">{{ index.Create_Your_Blog }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product: Kloud51 -->
+<div class="product kloud51" id="kloud51">
+  <div class="row">
+    <div class="col-lg-6 content">
+      <div class="container">
+        <h1><a href="https://gonevis.com">Kloud51</a></h1>
+        <p class="fw-bold">{{ index.kloud51.subtitle }}</p>
+        <p>{{ index.kloud51.description }}</p>
+        <a class="btn btn-lg btn-primary" href="https://kloud51.com">{{ index.Web_Hosting_Plans }}</a>
+      </div>
+    </div>
+    <div class="col-lg-6 image"></div>
+  </div>
+</div>
+
+<!-- Product: Expensephere -->
+<div class="product expensephere">
+  <div class="row">
+    <div class="col-lg-6 image"></div>
+    <div class="col-lg-6 content">
+      <div class="container">
+        <h1><a href="https://gonevis.com">Expensephere</a></h1>
+        <p class="fw-bold">{{ index.expensephere.subtitle }}</p>
+        <p>{{ index.expensephere.description }}</p>
+        <a class="btn btn-lg btn-primary" href="https://expenseohere.savandbros.com">{{ index.Get_Started }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product: PlaysEM -->
+<div class="product playsem">
+  <div class="row">
+    <div class="col-lg-6 content">
+      <div class="container">
+        <h1><a href="https://gonevis.com">PlaysEM</a></h1>
+        <p class="fw-bold">{{ index.playsem.subtitle }}</p>
+        <p>{{ index.playsem.description }}</p>
+        <a class="btn btn-lg btn-primary" href="https://www.playsem.com">{{ index.Create_Your_Playlist }}</a>
+      </div>
+    </div>
+    <div class="col-lg-6 image"></div>
+  </div>
+</div>
+
+<!-- Contact Us -->
+<div class="contact-us" id="contact-us">
+  <div class="container">
+    <div class="title">{{ index.Contact_Us }}</div>
+    <p>{{ index.feedback }}</p>
+    <a href="mailto:hello@savandbros.com" class="btn btn-primary">{{ index.Send_Email }}</a>
+    <a href="https://goo.gl/maps/DfUYNnX7Xd82" class="btn btn-primary">{{ index.Address }}</a>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <p class="m-0 text-muted">{{ index.copyright }}</p>
+      </div>
+      <div class="col-lg-3">
+        <h5>{{ index.What_We_Do }}</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://gonevis.com">{{ index.Blogging_&_Publishing_Software }}</a></li>
+          <li><a href="https://kloud51.com">{{ index.Web_Hosting_&_Online_Shop }}</a></li>
+          <li><a href="https://expensephere.savandbros.com">{{ index.Expense_Management_App }}</a></li>
+          <li><a href="https://playsem.com">{{ index.Music_&_Video_Sharing_App }}</a></li>
+          <li><a href="https://github.com/savandbros">{{ index.Open_Source }}</a></li>
+          <li><a href="https://doinrussia.com">{{ index.Business_Support_in_Russia }}</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h5>{{ index.Our_Products }}</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://kloud51.com">GoNevis</a></li>
+          <li><a href="https://gonevis.com">Kloud51</a></li>
+          <li><a href="https://expensephere.savandbros.com">Expensephere</a></li>
+          <li><a href="https://www.playsem.com">PlaysEM</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h5>{{ index.Company }}</h5>
+        <ul class="list-unstyled">
+          <li><a href="mailto://hello@savandbros.com">hello@savandbros.com</a></li>
+          <li><a href="https://goo.gl/maps/DfUYNnX7Xd82">{{ index.location }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

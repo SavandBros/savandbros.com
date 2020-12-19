@@ -1,0 +1,44 @@
+{
+  "Savand_Bros": "Savand Bros",
+  "Start_a_Blog": "Start a Blog",
+  "Create_a_Website": "Create a Website",
+  "We_are_Savand_Bros": "We are Savand Bros",
+  "Send_Email": "Send Email",
+  "Address": "Address",
+  "Blogging_&_Publishing_Software": "Blogging & Publishing Software",
+  "Web_Hosting_&_Online_Shop": "Web Hosting & Online Shop",
+  "Expense_Management_App": "Expense Management App",
+  "Music_&_Video_Sharing_App": "Music & Video Sharing App",
+  "Open_Source": "Open Source",
+  "Business_Support_in_Russia": "Business Support in Russia",
+  "What_We_Do": "What We Do",
+  "Our_Products": "Our Products",
+  "Company": "Company",
+  "Create_Your_Blog": "Create Your Blog",
+  "Web_Hosting_Plans": "Web Hosting Plans",
+  "Get_Started": "Get Started",
+  "Create_Your_Playlist": "Create Your Playlist",
+  "Contact_Us": "Contact Us",
+  "gonevis": {
+    "subtitle": "Blogging. Now for the rest of us.",
+    "description": "GoNevis lets you start your blog, write and share for free."
+  },
+  "kloud51": {
+    "subtitle": "Order a professional website or an online managed shop.",
+    "description": "Kloud51 offers Premium web hosting services at low prices to our customers without compromising reliability and great customer service."
+  },
+  "expensephere": {
+    "subtitle": "Be in control of your expenses in a beautiful and simple atmosphere.",
+    "description": "Expensephere makes it easy for you to track your expenses, view reports and help you manage you finances. App is available for browser, desktop and mobile."
+  },
+  "playsem": {
+    "subtitle": "Blogging. Now for the rest of us.",
+    "description": "Supports YouTube videos and SoundCloud (soon) tracks. With the Sync feature other party members can play the exact song you are playing."
+  },
+  "keywords": "services, blogging, website, builder, software",
+  "description": "Using technology to build great software.",
+  "feedback": "We're ready and would love to hear you. Let's get in touch and let us know how we can help you with your business.",
+  "location": "Russian Federation, Moscow, 115573, 44А Shipilovskaya str, 2d floor, office №2",
+  "copyright": "Savand Bros &copy; 2021.<br>Made with \uD83D\uDC96 in Moscow.",
+  "dir": "rtl"
+}
