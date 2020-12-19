@@ -11,7 +11,8 @@
     "gulp-csso": "^4.0.1",
     "gulp-html-i18n": "^0.16.0",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta1"

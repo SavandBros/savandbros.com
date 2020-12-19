@@ -4,6 +4,7 @@ const csso = require("gulp-csso");
 const del = require("del");
 const gulp = require("gulp");
 const htmlmin = require("gulp-htmlmin");
+const uglify = require("gulp-uglify-es").default;
 const sass = require("gulp-sass");
 const connect = require("gulp-connect");
 const i18n = require("gulp-html-i18n");
@@ -50,6 +51,12 @@ gulp.task("build:html", () => {
     .pipe(gulp.dest("dist"));
 });
 
+gulp.task("build:script", () => {
+  return gulp.src(["src/asset/**/*.js"])
+    .pipe(uglify())
+    .pipe(gulp.dest("dist/asset/"));
+});
+
 gulp.task("build:asset", () => {
   return gulp.src("src/asset/*/**/*")
     .pipe(gulp.dest("dist/asset/"));
@@ -65,6 +72,7 @@ gulp.task("build", gulp.series(
   "clean",
   "build:style",
   "build:html",
+  "build:script",
   "build:asset",
   "build:localize",
 ));
@@ -74,6 +82,12 @@ gulp.task("build", gulp.series(
 gulp.task("serve:html", () => {
   return gulp.src(["src/**/*.html"])
     .pipe(gulp.dest("serve"));
+});
+
+gulp.task("serve:script", () => {
+  return gulp.src(["src/asset/**/*.js"])
+    .pipe(uglify())
+    .pipe(gulp.dest("serve/asset/"));
 });
 
 gulp.task("serve:style", () => {
@@ -106,6 +120,7 @@ gulp.task("serve:watch", async () => {
   return gulp.watch("src/**/*", gulp.series(
     "clean",
     "serve:html",
+    "serve:script",
     "serve:asset",
     "serve:style",
     "serve:localize",

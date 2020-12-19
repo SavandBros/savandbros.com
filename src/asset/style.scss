@@ -72,11 +72,11 @@ $container-max-widths: map-remove(
 //@import "node_modules/bootstrap/scss/forms";
 //@import "node_modules/bootstrap/scss/forms/labels";
 //@import "node_modules/bootstrap/scss/forms/form-text";
-@import "node_modules/bootstrap/scss/forms/form-control";
+//@import "node_modules/bootstrap/scss/forms/form-control";
 //@import "node_modules/bootstrap/scss/forms/form-select";
 //@import "node_modules/bootstrap/scss/forms/form-check";
 //@import "node_modules/bootstrap/scss/forms/form-range";
-@import "node_modules/bootstrap/scss/forms/floating-labels";
+//@import "node_modules/bootstrap/scss/forms/floating-labels";
 //@import "node_modules/bootstrap/scss/forms/input-group";
 //@import "node_modules/bootstrap/scss/forms/validation";
 @import "node_modules/bootstrap/scss/buttons";
@@ -118,6 +118,7 @@ $container-max-widths: map-remove(
   > .container {
     display: flex;
     align-items: center;
+    place-content: space-between;
 
     > .brand {
       font-size: 1.25rem;
@@ -130,13 +131,23 @@ $container-max-widths: map-remove(
     }
 
     > .links {
-      @extend .ms-auto;
-
       > a {
         @extend .ms-2;
 
         &:last-child {
           margin: 0;
+        }
+      }
+
+      > select {
+        border: 0;
+        color: $link-color;
+        cursor: pointer;
+        outline: none;
+
+        &:hover,
+        &:focus {
+          color: $link-hover-color;
         }
       }
     }
