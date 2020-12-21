@@ -291,3 +291,11 @@ $container-max-widths: map-remove(
     @extend .mb-2;
   }
 }
+
+/* Responsiveness */
+
+@include media-breakpoint-down(lg) {
+  .header .links > a {
+    display: none;
+  }
+}
