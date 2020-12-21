@@ -299,4 +299,7 @@ $container-max-widths: map-remove(
   .product .image {
     display: none;
   }
+  .copyright {
+    margin-bottom: map_get($spacers, 4);
+  }
 }
