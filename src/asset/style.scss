@@ -295,7 +295,8 @@ $container-max-widths: map-remove(
 /* Responsiveness */
 
 @include media-breakpoint-down(lg) {
-  .header .links > a {
+  .header .links > a,
+  .product .image {
     display: none;
   }
 }
