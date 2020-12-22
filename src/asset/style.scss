@@ -148,6 +148,7 @@ $container-max-widths: map-remove(
         color: $link-color;
         cursor: pointer;
         outline: none;
+        background: none;
 
         &:hover,
         &:focus {
