@@ -1,44 +1,44 @@
 {
-  "Savand_Bros": "Savand Bros",
-  "Start_a_Blog": "Start a Blog",
-  "Create_a_Website": "Create a Website",
-  "We_are_Savand_Bros": "We are Savand Bros",
-  "Send_Email": "Send Email",
-  "Address": "Address",
-  "Blogging_&_Publishing_Software": "Blogging & Publishing Software",
-  "Web_Hosting_&_Online_Shop": "Web Hosting & Online Shop",
-  "Expense_Management_App": "Expense Management App",
-  "Music_&_Video_Sharing_App": "Music & Video Sharing App",
-  "Open_Source": "Open Source",
-  "Business_Support_in_Russia": "Business Support in Russia",
-  "What_We_Do": "What We Do",
-  "Our_Products": "Our Products",
-  "Company": "Company",
-  "Create_Your_Blog": "Create Your Blog",
-  "Web_Hosting_Plans": "Web Hosting Plans",
-  "Get_Started": "Get Started",
-  "Create_Your_Playlist": "Create Your Playlist",
-  "Contact_Us": "Contact Us",
+  "Savand_Bros": "ساوند بروز",
+  "Start_a_Blog": "شروع یک وبلاگ",
+  "Create_a_Website": "ساخت یک وبسایت",
+  "We_are_Savand_Bros": "ما ساوند بروز هستیم",
+  "Send_Email": "ارسال پست الکترونیک",
+  "Address": "آدرس",
+  "Blogging_&_Publishing_Software": "وبلاگ نویسی و انتشارنرم افزار",
+  "Web_Hosting_&_Online_Shop": "میزبانی وب و فروشگاه آنلاین",
+  "Expense_Management_App": "برنامه مدیریت هزینه",
+  "Music_&_Video_Sharing_App": "موسیقی و برنامه اشتراک گذاری فیلم",
+  "Open_Source": "متن باز",
+  "Business_Support_in_Russia": "پشتیبانی تجاری در روسیه",
+  "What_We_Do": "کاری که ما انجام می دهیم",
+  "Our_Products": "محصولات ما",
+  "Company": "شرکت",
+  "Create_Your_Blog": "وبلاگ خود را ایجاد کنید",
+  "Web_Hosting_Plans": "برنامه های میزبانی وب",
+  "Get_Started": "شروع کنید",
+  "Create_Your_Playlist": "لیست پخش خود را ایجاد کنید",
+  "Contact_Us": "تماس با ما",
   "gonevis": {
-    "subtitle": "Blogging. Now for the rest of us.",
-    "description": "GoNevis lets you start your blog, write and share for free."
+    "subtitle": "وبلاگ نویسی. حالا برای همه ما.",
+    "description": "گونویس این امکان را به شما می دهد که وبلاگ خود را شروع کنید، به صورت رایگان بنویسید و به اشتراک بگذارید."
   },
   "kloud51": {
-    "subtitle": "Order a professional website or an online managed shop.",
-    "description": "Kloud51 offers Premium web hosting services at low prices to our customers without compromising reliability and great customer service."
+    "subtitle": "یک وب سایت حرفه ای یا یک فروشگاه آنلاین مدیریت شده سفارش دهید.",
+    "description": "کلود51 خدمات باارزش میزبانی وب را با قیمت پایین به مشتریان خود ارائه می دهد بدون اینکه اعتماد به نفس و خدمات عالی مشتری را به خطر بیندازد."
   },
   "expensephere": {
-    "subtitle": "Be in control of your expenses in a beautiful and simple atmosphere.",
-    "description": "Expensephere makes it easy for you to track your expenses, view reports and help you manage you finances. App is available for browser, desktop and mobile."
+    "subtitle": "در یک فضای زیبا و ساده کنترل هزینه های خود را داشته باشید.",
+    "description": " اکسپنسفیر پیگیری هزینه های شما ، مشاهده گزارشات و کمک به شما در مدیریت امور مالی را برای شما آسان می کند. این برنامه برای مرورگر ، دسک تاپ و تلفن همراه در دسترس است."
   },
   "playsem": {
-    "subtitle": "Blogging. Now for the rest of us.",
-    "description": "Supports YouTube videos and SoundCloud (soon) tracks. With the Sync feature other party members can play the exact song you are playing."
+    "subtitle": "میزبان باشید و به مهمانی ها بپیوندید و آهنگ های بیمار را به هم بزنید.",
+    "description": "از فیلم های یوتوب  و آهنگ های سوند کلود (به زودی) پشتیبانی می کند. با ویژگی همگام سازی ، اعضای دیگر حزب می توانند آهنگ دقیق شما را پخش کنند."
   },
-  "keywords": "services, blogging, website, builder, software",
-  "description": "Using technology to build great software.",
-  "feedback": "We're ready and would love to hear you. Let's get in touch and let us know how we can help you with your business.",
-  "location": "Russian Federation, Moscow, 115573, 44А Shipilovskaya str, 2d floor, office №2",
-  "copyright": "Savand Bros © 2021. Made with 💖 in Moscow.",
+  "keywords": "خدمات, وبلاگ نویسی, سایت اینترنتی, سازنده, نرم افزار",
+  "description": "استفاده از فناوری برای ساختن یک نرم افزار عالی.",
+  "feedback": "ما آماده هستیم و دوست داریم شما را بشنویم. بیایید با هم تماس بگیریم و به ما اطلاع دهید که چگونه می توانیم در تجارت شما به شما کمک کنیم.",
+  "location": "فدراسیون روسیه ، مسکو ، ۱۱۵۵۷۳ ، خیابان شیپیلوفسکایا ۴۴А ، طبقه دوم ، دفتر شماره ۲.",
+  "copyright": "ساوند بروز © ۲۰۲۱. ساخته شده با \uD83D\uDC96 در مسکو.",
   "dir": "rtl"
 }
